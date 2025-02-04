@@ -1,22 +1,30 @@
-# MAXSwerve Java Template v2025.1
+Start of the 2025 Robot Code 
 
-See [the online changelog](https://github.com/REVrobotics/MAXSwerve-Java-Template/blob/main/CHANGELOG.md) for information about updates to the template that may have been released since you created your project.
+The Primary Design Goal wil include a 
+- REV MAX Swerve Base
+- One Stage Rev NEO Motor Driven Elevator
+- Three Pronged "Trident" Intake With a focus on Algea
 
-## Description
 
-A template project for an FRC swerve drivetrain that uses REV MAXSwerve Modules.
+Our Codes End Goal is -
 
-Note that this is meant to be used with a drivetrain composed of four MAXSwerve Modules, each configured with two SPARKS MAX, a NEO as the driving motor, a NEO 550 as the turning motor, and a REV Through Bore Encoder as the absolute turning encoder.
+- Functinal Swerve Drive Base Capable of
+      - Accurate and Fast omnidirectional travel with
+            - Minimized Stuttering
+            - Accurate Encoder Positioning
+            - Error Recovery/Reset
 
-To get started, make sure you have calibrated the zero offsets for the absolute encoders in the Hardware Client using the `Absolute Encoder` tab under the associated turning SPARK MAX devices.
+- A working Elevator with
+    - Preset Desired positions
+    - End Stop limitations preventing over/under shoot
+    - Encoder Positions readouts  --Visible to the Driver Via the Driver Station
 
-## Prerequisites
 
-* SPARK MAX Firmware v25.0.0
-* REVLib v2025.0.0
+- A functioning intake Capable of
+      - Selectively Rotating Forwards and backwards to interact with game pieces
+      - A "loaded" Indicator  --> Driver Station
 
-## Configuration
 
-It is possible that this project will not work for your robot right out of the box. Various things like the CAN IDs, PIDF gains, chassis configuration, etc. must be determined for your own robot!
 
-These values can be adjusted in the `Configs.java` and `Constants.java` files.
+
+
